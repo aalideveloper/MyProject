@@ -1,0 +1,19 @@
+div {
+
+width: 200px;
+height: 150px;
+background-color: aquamarine;
+position: relative;
+animation: mymove 5s infinite;
+}
+@keyframes mymove {
+0% {
+
+ top: 0px ;
+ background-color: red;
+ width: 500px;}
+100%
+{ 
+    top: 20px;background-color:yellow;
+
+}

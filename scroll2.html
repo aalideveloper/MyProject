@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Scroll</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #sec1, #sec2, #sec3, #sec4 {
+            height: 800px;
+            padding: 20px;
+        }
+
+        #sec1 {
+            background-color: darkseagreen;
+        }
+
+        #sec2 {
+            background-color: yellow;
+        }
+
+        #sec3 {
+            background-color: lightblue;
+        }
+
+        #sec4 {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Smooth Scroll</h1>
+
+    <div class="main" id="sec1">
+        <h2>Concave Lens</h2>
+        <p>A concave lens is a type of lens that is thinner in the middle than at the edges.
+        This shape causes light rays to spread out or diverge when they pass through it.
+        Concave lenses are also known as diverging lenses.
+        They are commonly used in glasses to correct nearsightedness (myopia) by making distant objects appear clearer.</p>
+        <a href="#sec2">Click me to smooth scroll to Convex Lens below</a>
+    </div>
+
+    <div class="main" id="sec2">
+        <h2>Convex Lens</h2>
+        <p>A convex lens is a type of lens that is thicker in the middle than at the edges.
+        This shape causes light rays to come together or converge when they pass through it.
+        Because of this, convex lenses are also known as converging lenses.
+        They are commonly used in magnifying glasses and to correct farsightedness (hyperopia) by making nearby objects appear clearer.</p>
+        <a href="#sec1">Click me to smooth scroll to Concave Lens above</a>
+        <a href="#sec3">Click me to smooth scroll to Oval Lens below</a>
+    </div>
+
+    <div class="main" id="sec3">
+        <h2>Oval Lens</h2>
+        <p>An oval lens has an elliptical shape, which can be used in various optical applications.
+        These lenses can focus light in a unique way due to their shape, often used in specialized optical instruments.</p>
+        <a href="#sec2">Click me to smooth scroll to Convex Lens above</a>
+        <a href="#sec4">Click me to smooth scroll to Transparent Lens below</a>
+    </div>
+
+    <div class="main" id="sec4">
+        <h2>Transparent Lens</h2>
+        <p>A transparent lens allows light to pass through without significant scattering.
+        These lenses are used in a variety of applications where clear vision is required, such as in cameras, glasses, and microscopes.</p>
+        <a href="#sec3">Click me to smooth scroll to Oval Lens above</a>
+    </div>
+</body>
+</html>
+

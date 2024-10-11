@@ -1,0 +1,22 @@
+
+.button:hover{
+background-color: rgb(245, 222, 12);
+width: 12px;
+height: 6px; 
+}
+
+
+
+img:hover{
+
+    border:  30px solid black;
+    
+    }
+img {
+    width: 500px;
+    padding: 20px; 
+ height: 400px;
+ display: grid;
+ justify-content: center;
+}
+
